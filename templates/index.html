@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
+    <div class="image-container">
+        <img src="{{ url_for('static', filename='2255433.webp') }}" alt="Background Image">
+    </div>
     <div class="container">
         <h2>Customer Churn Prediction</h2>
         <form method="POST" action="/">
@@ -17,10 +20,13 @@
                     <option value="Female">Female</option>
                 </select>
             </div>
-
+            
             <div class="form-row">
                 <label for="SeniorCitizen">Senior Citizen:</label>
-                <input type="number" name="SeniorCitizen" id="SeniorCitizen">
+                <select name="SeniorCitizen" id="SeniorCitizen">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
             </div>
 
             <div class="form-row">
