@@ -3,38 +3,38 @@ body {
     background-color: #f9f9f9;
     margin: 0;
     padding: 20px;
-    overflow-x: hidden; /* Prevent horizontal scrolling if content overflows */
+    overflow-x: hidden; 
 }
 
 .image-container {
-    position: fixed; /* Fixed position to stay in the background */
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; /* Full height */
+    height: 100%; 
     overflow: hidden;
-    z-index: -1; /* Place it behind other content */
+    z-index: -1; 
 }
 
 .image-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Cover the entire container */
-    opacity: 0.8; /* Adjust opacity for a faded effect */
+    object-fit: cover; 
+    opacity: 0.8; 
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255,0.95); /* Slight transparency to see the background image */
+    background-color: rgba(255, 255, 255,0.95); 
     box-shadow: 10px 10px 10px rgb(2, 47, 119,0.8);
     border-radius: 8px;
     position: relative;
     z-index: 1;
 }
 
-/* Rest of your existing CSS */
+
 h2 {
     text-align: center;
     color: #333;
