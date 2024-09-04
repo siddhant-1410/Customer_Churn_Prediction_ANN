@@ -26,8 +26,8 @@ SMOTE Performed the Best by increasing the f1-scores for both the classes to 81%
 Fine tuned the MLP model using keras tuner to find out the best hyper-parameters
 ![image](https://github.com/user-attachments/assets/28525587-863e-4dba-b5d7-8ec42fc9a55b)
 
-# Accuracy Graph
-****![image](https://github.com/user-attachments/assets/22ade94f-a7ae-4b80-a255-1816f3f9b472)
+# Accuracy Graph Over 100 epochs
+![image](https://github.com/user-attachments/assets/22ade94f-a7ae-4b80-a255-1816f3f9b472)
 
 
 
